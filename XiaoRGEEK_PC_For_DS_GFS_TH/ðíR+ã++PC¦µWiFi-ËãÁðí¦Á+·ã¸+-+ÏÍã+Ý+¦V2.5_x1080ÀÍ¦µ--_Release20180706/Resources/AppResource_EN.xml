@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Resource>
+      <Form>
+           <Name>MainForm</Name>
+               <Controls>
+			         <Control name="tabItem6" text="Channel1" />
+					 <Control name="tabItem7" text="Channel2" />
+					 <Control name="tabItem8" text="Channel3" />
+	                 <Control name="tabItem9" text="Channel4" />
+					 <Control name="tabItem10" text="Full Channel" />
+					 <Control name="tabItem14" text="XR Super Decoder" />
+					 <Control name="Systemstatus" text="Control Mode:None" />
+			   
+			         <Control name="btnPIP" text="Gird" />
+                     <Control name="groupPanel3" text="Dashboard" />
+                     <Control name="label2" text="Speed" />
+					 <Control name="label3" text="Mileage" />
+					  <Control name="labelX1" text="LeftSpeed" />
+					 <Control name="labelX2" text="RightSpeed" />
+					  <Control name="labelX3" text="VideoSwitch" />
+					   <Control name="labelX8" text="Beep" />
+					   <Control name="labelX4" text="LightSwitch" />
+					   
+					 <Control name="groupBox3" text="Reverse angle" />
+					<Control name="groupBox2" text="Reverse angle" />
+	  
+	                 <Control name="chkCradleReleativePosition" text="Show Cradle" />
+					    <Control name="label15" text="Servo Angle" />
+					   <Control name="tabItem11" text="Servo Control" />
+					   <Control name="label16" text="Cradle_X" />
+	                   <Control name="label17" text="Cradle_Y" />
+	                   <Control name="ARMControl" text="Arm Control" />
+					   <Control name="tabItem13" text="User Defined" />
+					   <Control name="tabItem12" text="Radar Panel" />
+					   <Control name="tabItem16" text="Real Time Data" />
+					   <Control name="SettingToolStripMenuItem" text="Platform Operation" />
+					<Control name="ControlModeToolStripMenuItem" text="Control Mode" />
+					 <Control name="VideoEffectToolStripMenuItem" text="Video Effect" />
+					  <Control name="AuxiliaryToolStripMenuItem" text="Aux Function" />
+					   <Control name="RobotWarriorToolStripMenuItem" text="Robot Fighting" />
+					  <Control name="HelpToolStripMenuItem" text="Help" />
+					   <Control name="LanguageToolStripMenuItem" text="Language语言" />
+					   
+					    <Control name="ConfigToolStripMenuItem" text="System Config" />
+						<Control name="ExecuteToolStripMenuItem" text="Execute Shell" />
+					<Control name="wIFIModeToolStripMenuItem" text="WiFi/LAN Mode" />
+					<Control name="BluetoothToolStripMenuItem" text="Bluetooth/SerialPort Mode" />
+					
+					<Control name="SightTypeToolStripMenuItem" text="Sight Type" />
+					<Control name="无准星ToolStripMenuItem" text="None" />
+					<Control name="十字准星ToolStripMenuItem" text="Cross" />
+					<Control name="圆形准星ToolStripMenuItem" text="Circle" />
+					
+					<Control name="MouseControlCradleToolStripMenuItem" text="Mouse Camera" />
+					<Control name="不开启鼠标控制云台ToolStripMenuItem" text="None" />
+					  <Control name="相对位置控制云台ToolStripMenuItem" text="Relative" />
+					  <Control name="绝对位置控制云台ToolStripMenuItem" text="Absolute " />
+					  
+					  <Control name="中文默认ToolStripMenuItem" text="Chinese中文 " />
+					   <Control name="英文ToolStripMenuItem" text="English " />
+		  
+		  
+			<Control name="原地复活ToolStripMenuItem" text="Simple Fighting" />
+		    <Control name="网络裁判模式ToolStripMenuItem" text="Judge Join" />
+			 <Control name="对战模式使用说明ToolStripMenuItem" text="Robot Fighting Instructions" />
+			  <Control name="原地复活ToolStripMenuItem1" text="Start" />
+		    <Control name="自杀ToolStripMenuItem" text="End Game" />
+			
+		  
+					<Control name="CheckLineToolStripMenuItem" text="Reference Line" />
+					
+			<Control name="帮助ToolStripMenuItem1" text="Help" />
+			<Control name="视频教程ToolStripMenuItem" text="Video Tutorial" />
+			<Control name="特别感谢ToolStripMenuItem" text="Acknowledge " />
+			<Control name="在线升级ToolStripMenuItem" text="Update" />
+			<Control name="关于ToolStripMenuItem" text="About" />
+			
+			<Control name="RobotsStoreToolStripMenuItem" text="Robots-Store" />
+			<Control name="ShopToolStripMenuItem" text="OnlineShop" />
+			<Control name="BBSToolStripMenuItem" text="BBS" />
+					   
+					 <Control name="groupPanel2" text="Aux Panel" />
+					 
+					 <Control name="labelsensor1" text="Pow" />
+					 <Control name="labelsensor2" text="Wet" />
+					 <Control name="labelsensor3" text="Rad" />
+					 <Control name="labelsensor4" text="Tmp" />
+					 <Control name="labelsensor5" text="Lex" />
+					 <Control name="labelsensor6" text="Cur" />
+					 
+					 <Control name="labelX6" text="Distance" />
+					 <Control name="labelX7" text="Angle" />
+					 <Control name="labelX5" text="Radar Switch" />
+					<Control name="label18" text="Ultrasonic radar communication protocol:" />
+					<Control name="label19" text="FF 03 angle distance FF" />
+			<Control name="label8" text="Interval(ms)" />
+			<Control name="btnStartCollect" text="Collect Data" />
+			<Control name="btnStopCollect" text="Stop Collect" />
+			<Control name="groupBox1" text="Communication Protocol" />
+			
+			<Control name="label12" text="Type" />
+			<Control name="label13" text="CMD" />
+			<Control name="label11" text="Data" />
+			
+			<Control name="btnGearsRegual" text="Remember Servo" />
+			<Control name="btnGearStandby" text="Reset Servo" />
+			<Control name="btnTakePhotos" text="Take Photo" />
+			<Control name="btnMulitiVideo" text="MulitiVideo" />
+			<Control name="btnFollowLine" text="Follow Line" />
+			<Control name="btnIRAvoid" text="IR Avoid" />
+			<Control name="btnFollowPeople" text="Follow People" />
+			<Control name="btnChaoshengbo" text="Ultrasonic Avoid" />
+			<Control name="btnVideoRecord" text="Start Rec" />
+			<Control name="btnStopVideoRecord" text="Stop Rec" />
+			<Control name="btnPathplanning" text="Path Planning" />
+			
+			<Control name="expandablePanel1" text="Virtual TV RC" />
+			<Control name="ButtonChannelUP" text="CH+" />
+			<Control name="ButtonChannelDOWN" text="CH-" />
+			<Control name="ButtonVolumeUP" text="VOL+" />
+			<Control name="ButtonVolumeDOWN" text="VOL-" />
+			<Control name="ButtonOK" text="OK" />
+			<Control name="ButtonBACK" text="BACK" />
+			<Control name="label1" text="Copy Mode" />
+			
+			<Control name="wifi_connecting" text="Connecting..." />
+			<Control name="wifi_connect_fail" text="Failed to connect robot! Make sure the computer is connected to the robot's network, and unplug the computer's wired network!" />
+			<Control name="wifi_connect_fail_tip" text="WiFi Mode Tips" />
+			<Control name="status_wifi_mode" text="WiFi/LAN Mode" />
+			<Control name="initting_video" text="Initializing..." />
+			<Control name="closing_video" text="Closing video..." />
+			<Control name="rec_completed_info" text="Record file in Video folder" />
+			<Control name="rec_completed_tips" text="Rec Tip" />
+			<Control name="rec_fail_info" text="Please open the video of robot first!" />
+			<Control name="recording" text="Recording" />
+			<Control name="life" text="Life:" />
+			<Control name="weapon_name" text="Weapon name" />
+			<Control name="bullet" text="Bullet:" />
+			<Control name="fps" text="FPS:" />
+			<Control name="bluetoothmode" text="Bluetooth/SerialPort Mode" />
+			<Control name="bluetoothtip" text="Bluetooth/SerialPort Tip" />
+			<Control name="bluetooth_error_info" text="Bluetooth/SerialPort Error!" />
+			<Control name="bluetooth_open_error_info" text="Please set Bluetooth serial com port in Config Form" />
+			<Control name="bluetooth_open_error_tip" text="Bluetooth/SerialPort Error Tip" />
+			<Control name="send_command_tip" text="Send Command Tip" />
+			<Control name="send_command_info" text="Please chose a control mode in 'Control Mode' menu!" />
+			<Control name="data_incorrect" text="The data is incorrect,please check the set value." />
+			<Control name="send_command_error_info" text="Send Command Error!Please check if the WiFi signal is connected！Then re-run the Software." />
+			<Control name="send_command_error_tip" text="Send Command Error" />
+			<Control name="get_command_error_info" text="Get Data Error!Please check if the WiFi signal is connected！Then re-run the Software." />
+			<Control name="get_command_error_tip" text="Get Data Error" />
+			<Control name="take_photo_success" text="Take Photo success!Save path:" />
+			<Control name="take_photo_success_tip" text="Take photo success" />
+			<Control name="take_photo_fail" text="Take photo error!" />
+			<Control name="take_photo_fail_tip" text="Take photo error" />
+			
+			<Control name="label5" text="Drag orange zone control claw" />
+			<Control name="label4" text="Wrist rotation" />
+			
+			<Control name="joint1" text="Angle1:" />
+			<Control name="joint2" text="Angle2" />
+			<Control name="label6" text="Angle1+" />
+			<Control name="label7" text="Angle2+" />
+    </Controls>
+  </Form>
+     <Form>
+          <Name>Config</Name>
+              <Controls>
+					<Control name="Config" text="Config" />
+                    <Control name="groupPanel1" text="System Command parameter setting" />
+                    <Control name="label3" text="Forward" />
+                    <Control name="label6" text="Backward" />
+                    <Control name="label7" text="Stop" />
+                    <Control name="label4" text="TurnLeft" />
+                    <Control name="label5" text="TurnRight" />
+                    <Control name="label8" text="LForward" />
+					<Control name="label9" text="RForward" />
+					<Control name="label16" text="LBackward" />
+					<Control name="label17" text="RBackward" />
+					<Control name="label37" text="LRotate" />
+					<Control name="label38" text="RRotate" />
+					<Control name="label10" text="LightON" />
+					<Control name="label15" text="LightOFF" />
+					<Control name="label10" text="LightON" />
+					<Control name="label19" text="BeepON" />
+					<Control name="label18" text="BeepOFF" />
+					
+					
+			<Control name="groupPanel2" text="Custom Command parameter setting" />
+			<Control name="label20" text="Tip: click on each custom button tab to change the name of the button. Try it!" />
+			<Control name="label35" text="Send command when custom button key up:" />
+			<Control name="tabItem1" text="Command Setting" />
+			<Control name="tabItem2" text="Wireless Setting" />
+			<Control name="tabItem3" text="Sensor Setting" />
+			<Control name="tabItem4" text="Aux Function Setting" />
+			
+			   <Control name="groupPanel3" text="WiFi parameter setting" />
+			 <Control name="label2" text="Control URL" />
+			 <Control name="label11" text="Port" />
+			 <Control name="label1" text="Video URL1" />
+			 <Control name="label21" text="Video URL2" />
+			 <Control name="label22" text="Video URL3" />
+			 <Control name="label23" text="Video URL4" />
+			  <Control name="chkVideoPath" text="Default" />
+			 
+			 
+			  <Control name="groupPanel4" text="Bluetooth parameter setting" />
+					 <Control name="label13" text="Bluetooth Port" />
+					  <Control name="label14" text="Baud Rate" />
+					  
+          <Control name="groupPanel5" text="Sensor parameter setting" />
+			 <Control name="label27" text="Sensor Name" />
+			 <Control name="label26" text="Type bit" />
+			 <Control name="label32" text="Max Value" />  
+			<Control name="label31" text="Sensor1" />
+			   <Control name="label30" text="Sensor2" />
+			    <Control name="label29" text="Sensor3" />
+				 <Control name="label28" text="Sensor4" />
+				  <Control name="label33" text="Sensor5" />
+				   <Control name="label34" text="Sensor6" />
+				   	<Control name="label36" text="Protocol：FF Mark Reserved Data FF" />
+				    <Control name="label25" text="Data bit is the fourth, range 0-255; maximum value refers to the maximum value of the sensor display, if the robot upload data more than The maximum,the value will not be displayed.
+For example: the robot send to the host computer data is FF 88 00 09 FF, and now want to display the data 9 in the sensor 1.you should fill the 'Mark textbox' with 88 in sensor1, then save and restart the software. Connected to the robot, and then choose
+Control mode - WiFi/LAN mode, and you can see the 09 on the display of the Sensor1"
+/>
+			<Control name="groupPanel6" text="Aux Function Setting" />
+			<Control name="chkAutoFixScreen" text="Auto Fit Screen" />
+			<Control name="chkAutoOpenVideo" text="Auto Open Video" />
+			<Control name="label24" text="Shell Path" />
+			<Control name="btnShellPath" text="Browse..." />
+			<Control name="okButton" text="Save  " />
+			<Control name="cancelButton" text="Cancel  " />
+			
+			<Control name="linkLabel1" text="Online Shop：http://wifi-robots.taobao.com  " />
+			
+              </Controls>
+    </Form>
+	
+	
+	<Form>
+          <Name>Tips_FollowLine</Name>
+              <Controls>
+					<Control name="Tips_FollowLine" text="FollowLine" />
+					<Control name="label1" text="Tip: you can drag the mouse to view the entire schematic" />
+					<Control name="button1" text="Send FollowLine Command" />
+					<Control name="button2" text="Return to manual control" />
+					<Control name="groupBox1" text="Schematic diagram of sensor connection" />
+					<Control name="groupBox2" text="Schematic diagram of sensor connection" />
+					<Control name="groupBox3" text="Schematic diagram of sensor connection" />
+					<Control name="groupBox4" text="Schematic diagram of sensor connection" />
+					<Control name="tabPage4" text="Raspberry pi" />
+              </Controls>
+    </Form>
+	
+	<Form>
+          <Name>Tips_FollowPeople</Name>
+              <Controls>
+					<Control name="Tips_FollowPeople" text="FollowPeople" />
+					<Control name="label1" text="Tip: you can drag the mouse to view the entire schematic" />
+					<Control name="button1" text="Send FollowPeople Command" />
+					<Control name="button2" text="Return to manual control" />
+					<Control name="groupBox1" text="Schematic diagram of sensor connection" />
+					<Control name="groupBox2" text="Schematic diagram of sensor connection" />
+					<Control name="groupBox3" text="Schematic diagram of sensor connection" />
+					<Control name="groupBox4" text="Schematic diagram of sensor connection" />
+					<Control name="tabPage4" text="Raspberry pi" />
+              </Controls>
+    </Form>
+	
+	<Form>
+          <Name>Tips_IRAvoid</Name>
+              <Controls>
+					<Control name="Tips_IRAvoid" text="IR Avoid/Drop" />
+					<Control name="label1" text="Tip: you can drag the mouse to view the entire schematic" />
+					<Control name="button1" text="Send IR Avoid/Drop Command" />
+					<Control name="button2" text="Return to manual control" />
+					<Control name="groupBox1" text="Schematic diagram of sensor connection" />
+					<Control name="groupBox2" text="Schematic diagram of sensor connection" />
+					<Control name="groupBox3" text="Schematic diagram of sensor connection" />
+					<Control name="groupBox4" text="Schematic diagram of sensor connection" />
+					<Control name="tabPage4" text="Raspberry pi" />
+              </Controls>
+    </Form>
+	
+	<Form>
+          <Name>Tips_UltrasonicAvoid</Name>
+              <Controls>
+					<Control name="Tips_UltrasonicAvoid" text="UltrasonicAvoid" />
+					<Control name="label1" text="Tip: you can drag the mouse to view the entire schematic" />
+					<Control name="button1" text="Send Ultrasonic Avoid Command" />
+					<Control name="button2" text="Return to manual control" />
+					<Control name="groupBox1" text="Schematic diagram of sensor connection" />
+					<Control name="groupBox2" text="Schematic diagram of sensor connection" />
+					<Control name="groupBox3" text="Schematic diagram of sensor connection" />
+					<Control name="groupBox4" text="Schematic diagram of sensor connection" />
+					<Control name="tabPage4" text="Raspberry pi" />
+              </Controls>
+    </Form>
+	
+	<Form>
+          <Name>FirstRun</Name>
+              <Controls>
+					<Control name="FirstRun" text="Wizards-X*1080" />
+					<Control name="label1" text="WiFi/Bluetooth Robot control platform V2.4" />
+					<Control name="label4" text="More tutorials check:" />
+					<Control name="label3" text="by liuviking" />
+					<Control name="checkBox1" text="Hide me(Re-show me in Help menu)" />
+					<Control name="linkLabel4" text="shop:wifi-robots.taobao.com" />
+					<Control name="label2" text="www.wifi-robots.com copyright reserved" />
+              </Controls>
+    </Form>
+	
+		<Form>
+          <Name>VideoHelp</Name>
+              <Controls>
+					<Control name="VideoHelp" text="Software tutorial" />
+              </Controls>
+       </Form>
+	   
+	   <Form>
+          <Name>HelpForm</Name>
+              <Controls>
+					<Control name="HelpForm" text="Help" />
+					<Control name="groupBox2" text="Tutorial" />
+					<Control name="groupBox1" text="Common links and FAQ" />
+					<Control name="label1" text="The first step: Turn on the robot's power." />
+					<Control name="label2" text="The second step: Connect to the wireless network start with wifi-robots.com" />
+					<Control name="label3" text="The third step: Select the software 'control mode' - 'WIFI mode'." />
+					<Control name="label5" text="The fourth step: Open the video." />
+					<Control name="label4" text="The fifth step: Use the keyboard WASD to control motors and use mouse to control the Cradle movement." />  
+
+			<Control name="linkLabel3" text="WIFI-ROBOTS BBS www.wifi-robots.com" />
+			<Control name="linkLabel4" text="Online Shop：http://wifi-robots.taobao.com  " />
+			<Control name="linkLabel1" text="Software tutorial" />
+			<Control name="linkLabel2" text="SDK-API tutorial" />
+			<Control name="linkLabel5" text="How to receive sensor data" />
+			<Control name="button1" text="Show wizards when app starts" />	
+			<Control name="linkLabel6" text="Robots-Store www.robots-store.com" />					
+			 </Controls>
+       </Form>
+	   
+	   
+	    <Form>
+          <Name>RobotWarriors_Helper</Name>
+              <Controls>
+					<Control name="RobotWarriors_Helper" text="XR RobotFighting instruction" />
+					<Control name="tabPage1" text="Demo" />
+					<Control name="tabPage2" text="Simple fighting mode instruction" />
+					<Control name="tabPage3" text="Judge join instruction" />
+					<Control name="label1" text="RobotFighting is a AR battle system (augmented reality) robot battle platform, equipped with infrared transmitting and receiving system , through update the firmware of robotfighting, you can
+play this game function, this game is similar to CF CS, the FPS game , you can see the video picture taken by the robot from the perspective of real-time video, and turn the head, when using the mouse to shoot enemy
+Hit, you can also switch weapons types, resulting in different damage effects, while the host machine with a corresponding realistic sound, so that players feel immersive.
+Each round of the game every player has 35 sniper bullets, 4 rocket launchers, 2 missiles, 10 drops of blood; a sniper shot in 1 drops of blood, rocket shot in 3 drop and missile in 5 drops of blood. Hit on the robot with flashing lights or voice prompts.
+The video window has blood and ammunition that when blood is 0 is death, the control of the robot car stopped running, waiting for the next round of opening.
+[operation description]
+First of all, the robot must be equipped with a XR technology RobotFighting upgrade kit, and upgrade the firmware.
+
+Turn on the robot, wait 20s untill the computer connected to the robot's wireless signal (start with wifi-robots.com), and then open the PC software, select 'control model' - 'WIFI mode', enter the control state, click 'open video' to open real-time video camera robot.
+Select the top menu bar - 'battle mode' - 'simple battle mode' to start, As it is a simple battle mode, so the two players can reload bullet and blood in the 'battle mode' - 'simple battle mode'.
+'Fire' - the left mouse button
+'Toggle weapons' - keyboard 1, 2, 3
+'Turning head' - hold the right mouse button and drag on the video screen
+" />
+					<Control name="label2" text="[function]
+RobotFighting is a AR battle system (augmented reality) robot battle platform, equipped with infrared transmitting and receiving system , through update the firmware of robotfighting, you can
+play this game function, this game is similar to CF CS, the FPS game , you can see the video picture taken by the robot from the perspective of real-time video, and turn the head, when using the mouse to shoot enemy
+Hit, you can also switch weapons types, resulting in different damage effects, while the host machine with a corresponding realistic sound, so that players feel immersive.
+Each round of the game every player has 35 sniper bullets, 4 rocket launchers, 2 missiles, 10 drops of blood; a sniper shot in 1 drops of blood, rocket shot in 3 drop and missile in 5 drops of blood. Hit on the robot with flashing lights or voice prompts.
+The video window has blood and ammunition that when blood is 0 is death, the control of the robot car stopped running, waiting for the next round of opening.
+[operation description]
+First of all, the robot must be equipped with a XR technology RobotFighting upgrade kit, and upgrade the firmware.
+Choose a computer as a server, the server running XR technology RobotFighting robot war system server referee program,select the appropriate port, start the server.
+All players through a wired network connected with a router at the same time, the server computer is connected with the same router, specify the IP manual with every computer, do not fill out the gateway, so as not to affect the sending data to the host computer robot.
+PC installed V2.2 above version PC PC software. Open source robot, 20 seconds after the car started and connected to the car computer wireless signal (wifi-robots.com at the beginning), and then open the PC software, select control model - WIFI mode, enter the control state, click 'open video' to open real-time video camera robot.Select the top of the menu bar - 'war mode' - 'Judge join', fill in the server computer IP and port, click 'join the battlefield!' Button.
+'Fire' - the left mouse button
+'Toggle weapons' - keyboard 1, 2, 3
+'Turning head' - hold the right mouse button and drag on the video screen
+Because the server as a referee, so I can not own to add blood or replenish ammunition operation, to ensure fair competition, when a game is over, the need to re start, select the 're start' on the server, all robots are full of blood!" />
+              </Controls>
+       </Form>
+	   
+	   
+	   	 <Form>
+          <Name>Acknowledgement</Name>
+              <Controls>
+					<Control name="Acknowledgement" text="Thanks" />
+					<Control name="label1" text="Thank you my friends, you are our most strong Supporter!" />  
+			 </Controls>
+       </Form>
+	   
+	   <Form>
+          <Name>AboutForm</Name>
+              <Controls>
+					<Control name="AboutForm" text="About" />
+					<Control name="okButton" text="OK" />  
+			 </Controls>
+       </Form>
+	   
+	    <Form>
+          <Name>FrameRateForm</Name>
+              <Controls>
+					<Control name="FrameRateForm" text="Video record FPS setting" />
+					<Control name="label1" text="FPS:" />  
+					<Control name="label2" text="Do not modify" />
+					<Control name="label3" text="Resolution:" />
+					<Control name="label4" text="If record failed,Try another resolution" />
+					<Control name="btnOK" text="OK" />
+					<Control name="btnCancel" text="Cancel" />
+			 </Controls>
+       </Form>
+	   
+	   	<Form>
+          <Name>CustomSetting</Name>
+              <Controls>
+					<Control name="CustomSetting" text="Custom command names setting" />
+					<Control name="label2" text="The name more than 4 characters will be replaced with '.'" />  
+					<Control name="label1" text="Custom name" />
+					<Control name="btnOK" text="OK" />
+			 </Controls>
+       </Form>
+	   
+	   	<Form>
+          <Name>PathplanningWindow</Name>
+              <Controls>
+					<Control name="PathplanningWindow" text="Xiao R Path planning system for Robot by Sence" />
+					<Control name="btn_StartPathPainning" text="Start" />  
+					<Control name="btn_Reset" text="Reset" />
+					<Control name="groupBox1" text="Node info" />
+					<Control name="label2" text="Node Count:" />
+					<Control name="label4" text="Node now:" />
+					<Control name="label3" text="Angle:" />
+					<Control name="label5" text="Distance:" />
+					<Control name="label1" text="Interval:" />
+					<Control name="chkRepeat" text="Repeat" />
+			 </Controls>
+       </Form>
+</Resource>
+

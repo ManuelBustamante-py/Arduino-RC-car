@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es-es">
+<head>
+	<title>e-ika super car</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" href="data:,">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div style="max-width: 425px; margin: auto">
+		<h3>Tu super coche está en línea</h3>
+		
+		<div class="container">
+			<table>
+				<tr>
+					<td style="width: 80px">Luces</td>
+					<td>
+						<button id="lights-button" class="button button2 noselect" onmouseup="callServer('lights');">%LIGHTS_STATE%</button>
+					</td>
+				</tr>
+				<tr>
+					<td style="width: 80px">Claxon</td>
+					<td>
+						<button class="button button2 noselect" onmouseup="callServer('horn');">Pito</button>
+					</td>
+				</tr>
+				<tr>
+					<td style="width: 80px">Automático</td>
+					<td>
+						<button id="auto-button" class="button button2 noselect" onmouseup="callServer('auto');">Auto.</button>
+					</td>
+				</tr>
+			</table>
+		</div>
+
+		<div class="container">
+			<p>Velocidad: <span id="speed-lbl"></span></p>
+			<div class="slidecontainer">
+				<input type="range" min="1" max="5" value="0" class="slider" id="speed-ctrl">
+			</div>
+
+			<table>
+				<tr>
+					<td colspan="3" style="text-align: center">
+						<button class="button noselect"
+								onmousedown="callServer('forward');"
+								onmouseup="callServer('stop');"
+								ontouchstart="callServer('forward');"
+								ontouchend="callServer('stop');">
+							Avanza
+						</button>
+					</td>
+				</tr>
+				<tr>
+					<td style="text-align: center">
+						<button class="button noselect"
+								onmousedown="callServer('left');"
+								ontouchstart="callServer('left');"
+								onmouseup="callServer('stop');"
+								ontouchend="callServer('stop');">
+							Izq.
+						</button>
+					</td>
+					<td style="text-align: center">
+						<button class="button noselect"
+								onmousedown="callServer('stop');"
+								ontouchstart="callServer('stop');">
+							Stop
+						</button>
+					</td>
+					<td style="text-align: center">
+						<button class="button noselect"
+								onmousedown="callServer('right');"
+								ontouchstart="callServer('right');"
+								onmouseup="callServer('stop');"
+								ontouchend="callServer('stop');">
+							Der.
+						</button>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="3" style="text-align: center">
+						<button class="button noselect"
+								onmousedown="callServer('backward');"
+								ontouchstart="callServer('backward');"
+								onmouseup="callServer('stop');"
+								ontouchend="callServer('stop');">
+							Atrás
+						</button>
+					</td>
+				</tr>
+			</table>
+			<p>Mantener pulsado para avanzar</p>
+		</div>
+
+		
+
+		<script>
+			var speedCtrl = document.getElementById("speed-ctrl");
+			var speedLbl = document.getElementById("speed-lbl");
+			var lightsButton = document.getElementById("lights-button");
+			var autoButton = document.getElementById("auto-button");
+			lightsButton.innerHTML = "OFF";
+			autoButton.innerHTML = "OFF";
+			speedLbl.innerHTML = speedCtrl.value;
+
+			function callServer(x) {
+				var xhr = new XMLHttpRequest();
+				xhr.open("GET", "/action?do=" + x, true);
+				xhr.onreadystatechange = function (aEvt) {
+					if (xhr.readyState == 4) {
+						if (xhr.status == 200) {
+
+							if (x == "lights") {
+								lightsButton.innerHTML = xhr.responseText;
+								if (xhr.responseText.includes("ON"))
+									lightsButton.className = "button buttonON noselect";
+								else
+									lightsButton.className = "button button2 noselect";
+							}
+							else if (x == "auto") {
+								autoButton.innerHTML = xhr.responseText;
+								if (xhr.responseText.includes("ON"))
+									autoButton.className = "button buttonON noselect";
+								else
+									autoButton.className = "button button2 noselect";
+							}
+						}
+					}
+				};
+				xhr.send();
+			}
+
+			speedCtrl.oninput = function () {
+				speedLbl.innerHTML = this.value;
+				callServer("speed" + this.value);
+			}
+		</script>
+	</div>
+</body>
+</html>

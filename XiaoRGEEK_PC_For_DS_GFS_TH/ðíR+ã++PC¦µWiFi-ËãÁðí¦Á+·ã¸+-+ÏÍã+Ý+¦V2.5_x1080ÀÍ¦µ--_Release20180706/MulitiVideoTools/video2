@@ -1,0 +1,16 @@
+#!/bin/sh /etc/rc.common
+
+START=80
+
+start() {
+	rmmod gspca_zc3xx > /dev/null 2>&1 && sleep 2
+        insmod gspca_zc3xx > /dev/null 2>&1 && sleep 5
+		mjpg_streamer -b -i "input_uvc.so -r 320x240 -f 15 -d /dev/video0"  -o "output_http.so -p 8080 -w /web"
+	mjpg_streamer -b -i "input_uvc.so -r 320x240 -f 15 -d /dev/video1"  -o "output_http.so -p 8081 -w /web"
+	ser2net
+}
+
+stop(){
+	killall mjpg_streamer
+	killall ser2net
+}

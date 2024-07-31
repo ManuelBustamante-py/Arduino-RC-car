@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Resource>
+  <Form>
+    <Name>MainForm</Name>
+    <Controls>
+	
+	    <Control name="tabItem16" text="实时数据采集" />
+	   <Control name="tabItem6" text="视频通道1" />
+	   <Control name="tabItem7" text="视频通道2" />
+	   <Control name="tabItem8" text="视频通道3" />
+	   <Control name="tabItem9" text="视频通道4" />
+	   <Control name="tabItem10" text="全角度视频" />
+	   <Control name="tabItem14" text="小R科技万能解码器" />
+	   
+	   <Control name="Systemstatus" text="控制模式：未选择" />
+	
+	 <Control name="btnPIP" text="四宫格显示" />
+      <Control name="groupPanel3" text="仪表盘" />
+	  <Control name="label2" text="转速表" />
+	   <Control name="label3" text="里程表" />
+	    <Control name="labelX1" text="左侧速度" />
+		  <Control name="labelX2" text="右侧速度" />
+		  <Control name="labelX3" text="开启视频" />
+		  <Control name="labelX8" text="喇叭" />
+		  <Control name="labelX4" text="开启车灯" />
+	  
+	  <Control name="groupBox3" text="翻转角度" />
+	  <Control name="groupBox2" text="翻转角度" />
+	  
+	   <Control name="chkCradleReleativePosition" text="显示云台相对位置" />
+      <Control name="label15" text="舵机角度值" />
+	  <Control name="tabItem11" text="舵机控制" />
+	  <Control name="label16" text="云台水平角度" />
+	   <Control name="label17" text="云台垂直角度" />
+	   <Control name="ARMControl" text="机械臂控制" />
+	   <Control name="tabItem13" text="自定义指令面板" />
+	   <Control name="tabItem12" text="雷达面板" />
+	   <Control name="tabItem16" text="实时数据采集" />
+	    <Control name="SettingToolStripMenuItem" text="平台操作" />
+	   <Control name="ControlModeToolStripMenuItem" text="控制模式" />
+	   <Control name="VideoEffectToolStripMenuItem" text="视频效果" />
+	    <Control name="AuxiliaryToolStripMenuItem" text="辅助功能" />
+		 <Control name="HelpToolStripMenuItem" text="帮助" />
+		  <Control name="RobotWarriorToolStripMenuItem" text="对战模式" />
+		  
+		   <Control name="ConfigToolStripMenuItem" text="系统设置" />
+		  <Control name="ExecuteToolStripMenuItem" text="执行脚本" />
+		  
+		  <Control name="wIFIModeToolStripMenuItem" text="WiFi/网线模式" />
+		  <Control name="BluetoothToolStripMenuItem" text="蓝牙/串口模式" />
+		  
+		  <Control name="SightTypeToolStripMenuItem" text="准星方式" />
+		  <Control name="无准星ToolStripMenuItem" text="无准星" />
+		  <Control name="十字准星ToolStripMenuItem" text="十字准星" />
+		  <Control name="圆形准星ToolStripMenuItem" text="圆形准星" />
+		  
+		  
+					
+			<Control name="MouseControlCradleToolStripMenuItem" text="鼠标云台" />
+			
+			<Control name="不开启鼠标控制云台ToolStripMenuItem" text="不开启鼠标控制云台" />
+		  <Control name="相对位置控制云台ToolStripMenuItem" text="相对位置控制云台" />
+		  <Control name="绝对位置控制云台ToolStripMenuItem" text="绝对位置控制云台" />
+		  
+		    <Control name="中文默认ToolStripMenuItem" text="中文(默认)" />
+			<Control name="英文ToolStripMenuItem" text="English " />
+		  
+		  
+			<Control name="CheckLineToolStripMenuItem" text="行车警戒" />
+			
+			<Control name="帮助ToolStripMenuItem1" text="帮助" />
+			<Control name="视频教程ToolStripMenuItem" text="视频教程" />
+			<Control name="特别感谢ToolStripMenuItem" text="特别感谢" />
+			<Control name="在线升级ToolStripMenuItem" text="在线升级" />
+			<Control name="关于ToolStripMenuItem" text="关于" />
+		 
+		  <Control name="LanguageToolStripMenuItem" text="语言Language" />
+		  
+		   <Control name="原地复活ToolStripMenuItem" text="简单对战模式" />
+		    <Control name="网络裁判模式ToolStripMenuItem" text="网络裁判模式" />
+			 <Control name="对战模式使用说明ToolStripMenuItem" text="对战模式使用说明" />
+			  <Control name="原地复活ToolStripMenuItem1" text="开局" />
+		    <Control name="自杀ToolStripMenuItem" text="结束游戏" />
+			
+			<Control name="RobotsStoreToolStripMenuItem" text="小R科技应用商城" />
+			<Control name="ShopToolStripMenuItem" text="官网商城" />
+			<Control name="BBSToolStripMenuItem" text="WIFI机器人网论坛" />
+			
+			<Control name="labelX6" text="距离值" />
+			<Control name="labelX7" text="角度值" />
+			<Control name="labelX5" text="开启雷达" />
+			<Control name="label18" text="超声波雷达通信协议:" />
+			<Control name="label19" text="FF 03 角度 距离 FF" />
+			<Control name="label8" text="数据采集间隔时间(ms)" />
+			<Control name="btnStartCollect" text="开始采集数据" />
+			<Control name="btnStopCollect" text="停止采集数据" />
+			<Control name="groupBox1" text="通信协议设置" />
+			
+			<Control name="label12" text="类型位" />
+			<Control name="label13" text="命令位" />
+			<Control name="label11" text="数据位" />
+			
+		  
+		   <Control name="groupPanel2" text="附加功能面板" />
+		   
+		   <Control name="labelsensor1" text="电量" />
+		 <Control name="labelsensor2" text="湿度" />
+		 <Control name="labelsensor3" text="辐射" />
+		 <Control name="labelsensor4" text="温度" />
+		 <Control name="labelsensor5" text="亮度" />
+		 <Control name="labelsensor6" text="电流" />
+		 
+		 	<Control name="btnGearsRegual" text="舵机角度记忆" />
+			<Control name="btnGearStandby" text="舵机角度归位" />
+			<Control name="btnTakePhotos" text="拍     照" />
+			<Control name="btnMulitiVideo" text="多视频设置" />
+			<Control name="btnFollowLine" text="巡线遁迹" />
+			<Control name="btnIRAvoid" text="红外避障" />
+			<Control name="btnFollowPeople" text="跟随主人" />
+			<Control name="btnChaoshengbo" text="超声波避障" />
+			<Control name="btnVideoRecord" text="开始录像" />
+			<Control name="btnStopVideoRecord" text="停止录像" />
+			<Control name="btnPathplanning" text="路径规划" />
+		
+			<Control name="expandablePanel1" text="模拟电视遥控器" />
+			<Control name="ButtonChannelUP" text="频道加" />
+			<Control name="ButtonChannelDOWN" text="频道减" />
+			<Control name="ButtonVolumeUP" text="音量加" />
+			<Control name="ButtonVolumeDOWN" text="音量减" />
+			<Control name="ButtonBACK" text="返回" />
+			<Control name="ButtonOK" text="确认" />
+			<Control name="label1" text="学习模式" />
+			
+			<Control name="wifi_connecting" text="正在尝试连接WiFi模块···" />
+			<Control name="status_wifi_mode" text="WiFi/网线模式" />
+			<Control name="wifi_connect_fail" text="连接机器人失败！请先将电脑无线网络连上机器人的无线信号，并拔除电脑的有线网络连接！" />
+			<Control name="wifi_connect_fail_tip" text="WiFi模式设置提示" />
+			<Control name="initting_video" text="初始化视频中..." />
+			<Control name="closing_video" text="正在关闭视频..." />
+			<Control name="rec_completed_info" text="录像文件在安装目录的Video文件夹" />
+			<Control name="rec_completed_tips" text="录像提示" />
+			<Control name="rec_fail_info" text="请先开启小车的视频！" />
+			<Control name="recording" text="录像中" />
+			<Control name="weapon_name" text="武器名称" />
+			<Control name="life" text="生命值:" />
+			<Control name="bullet" text="剩余弹药:" />
+			<Control name="fps" text="实时帧率：" />
+			<Control name="bluetoothmode" text="蓝牙/串口模式" />
+			<Control name="bluetoothtip" text="蓝牙/串口模式提示" />
+			<Control name="bluetooth_error_info" text="蓝牙/串口模式出错！" />
+			<Control name="bluetooth_open_error_info" text="请先在系统设置中设置蓝牙/串口端口号！" />
+			<Control name="bluetooth_open_error_tip" text="蓝牙/串口端口号设置提示" />
+			<Control name="send_command_tip" text="命令发送提示" />
+			<Control name="send_command_info" text="请先在“控制模式”菜单中选择一种控制方式!" />
+			<Control name="data_incorrect" text="发送的数据包不合法！请构造偶位数的16进制数据包！" />
+			<Control name="send_command_error_info" text="发送数据出错！请检查是否连接了WiFi模块的无线信号！然后请重启程序。" />
+			<Control name="send_command_error_tip" text="发送数据失败提示" />
+			<Control name="get_command_error_info" text="接收数据出错！请检查是否连接了WiFi模块的无线信号！然后请重启程序。" />
+			<Control name="get_command_error_tip" text="接收数据失败提示" />
+			<Control name="take_photo_success" text="拍照成功！照片保存在：" />
+			<Control name="take_photo_success_tip" text="拍照成功" />
+			<Control name="take_photo_fail" text="拍照失败！请先打开机器人的视频。" />
+			<Control name="take_photo_fail_tip" text="拍照失败" />
+			
+			<Control name="label5" text="拖动橙色区域控制爪钳" />
+			<Control name="label4" text="手腕旋转" />
+			
+			<Control name="joint1" text="关节1角度" />
+			<Control name="joint2" text="关节2角度" />
+			<Control name="label6" text="关节1角度补偿" />
+			<Control name="label7" text="关节2角度补偿" />
+    </Controls>
+  </Form>
+  <Form>
+    <Name>Config</Name>
+    <Controls>
+      <Control name="groupPanel1" text="系统指令参数设置" />
+					<Control name="Config" text="系统设置" />
+                    <Control name="label3" text="前进" />
+                    <Control name="label6" text="后退" />
+                    <Control name="label7" text="停止" />
+                    <Control name="label4" text="左转" />
+                    <Control name="label5" text="右转" />
+                    <Control name="label8" text="左前" />
+					<Control name="label9" text="右前" />
+					<Control name="label16" text="左后" />
+					<Control name="label17" text="右后" />
+					<Control name="label37" text="左旋转" />
+					<Control name="label38" text="右旋转" />
+					<Control name="label15" text="车灯关" />
+					<Control name="label10" text="车灯开" />
+					<Control name="label19" text="喇叭开" />
+					<Control name="label18" text="喇叭关" />
+					<Control name="label20" text="提示：点击每个自定义按钮标签可以改变按钮名称，试试吧！" />
+					<Control name="label35" text="自定义按钮弹起时发送命令:" />
+					<Control name="label36" text="通信协议格式：FF 标志位 保留位 数据位 FF" />
+					<Control name="tabItem1" text="指令参数设置" />
+			<Control name="tabItem2" text="控制参数设置" />
+			<Control name="tabItem3" text="传感器参数设置" />
+			<Control name="tabItem4" text="附加功能设置" />
+			
+			   <Control name="groupPanel3" text="WiFi参数设置" />
+			 <Control name="label2" text="控制地址" />
+			 <Control name="label11" text="端口" />
+			 <Control name="label1" text="视频地址1" />
+			   <Control name="label21" text="视频地址2" />
+			    <Control name="label22" text="视频地址3" />
+				 <Control name="label23" text="视频地址4" />
+				 <Control name="chkVideoPath" text="使用系统默认" />
+				  <Control name="groupPanel4" text="蓝牙/串口参数设置" />
+					 <Control name="label13" text="蓝牙串口" />
+					  <Control name="label14" text="波特率" />
+					  
+			 <Control name="groupPanel5" text="传感器参数设置" />
+			 <Control name="label27" text="传感器名称" />
+			 <Control name="label26" text="标志位" />
+			 <Control name="label32" text="最大值" />
+
+			  <Control name="label31" text="传感器1" />
+			   <Control name="label30" text="传感器2" />
+			    <Control name="label29" text="传感器3" />
+				 <Control name="label28" text="传感器4" />
+				  <Control name="label33" text="传感器5" />
+				   <Control name="label34" text="传感器6" />
+				    <Control name="label25" text="数据位是第四位，范围0-255；最大值指的是传感器显示条的最大值，下位机的上传的数据如果超过
+最大值，则不显示。
+
+举例：下位机发送到上位机的数据为 FF 88 00 09 FF，现在希望在“传感器1”上显示 09 这个数据
+那么将“传感器1”对应的标志位填入“88”，保存并重启软件。连入WIFI模块的信号，然后选择
+“控制模式”-“WIFI模式”，即可在“传感器1”的显示条上看到9格的数据显示。" />
+
+		<Control name="groupPanel6" text="附加功能设置" />
+		<Control name="chkAutoOpenVideo" text="启动程序时自动打开视频开关" />
+		<Control name="chkAutoFixScreen" text="屏幕自适应" />
+		<Control name="label24" text="执行脚本" />
+		<Control name="btnShellPath" text="浏览..." />
+			<Control name="okButton" text="保   存" />
+			<Control name="cancelButton" text="取   消" />
+			
+			<Control name="linkLabel1" text="官网商城：http://wifi-robots.taobao.com  " />
+			
+    </Controls>
+  </Form>
+  
+  	<Form>
+          <Name>Tips_FollowLine</Name>
+              <Controls>
+					<Control name="Tips_FollowLine" text="巡线遁迹" />
+					<Control name="label1" text="提示：可以鼠标拖动查看整个示意图" />
+					<Control name="button1" text="发送巡线遁迹指令" />
+					<Control name="button2" text="切换到手动模式" />
+					<Control name="groupBox1" text="传感器接法示意图" />
+					<Control name="groupBox2" text="传感器接法示意图" />
+					<Control name="groupBox3" text="传感器接法示意图" />
+					<Control name="groupBox4" text="传感器接法示意图" />
+					<Control name="tabPage4" text="树莓派" />
+              </Controls>
+    </Form>
+	
+	<Form>
+          <Name>Tips_FollowPeople</Name>
+              <Controls>
+					<Control name="Tips_FollowPeople" text="跟随主人" />
+					<Control name="label1" text="提示：可以鼠标拖动查看整个示意图" />
+					<Control name="button1" text="发送跟随主人指令" />
+					<Control name="button2" text="切换到手动模式" />
+					<Control name="groupBox1" text="传感器接法示意图" />
+					<Control name="groupBox2" text="传感器接法示意图" />
+					<Control name="groupBox3" text="传感器接法示意图" />
+					<Control name="groupBox4" text="传感器接法示意图" />
+					<Control name="tabPage4" text="树莓派" />
+              </Controls>
+    </Form>
+	
+	<Form>
+          <Name>Tips_IRAvoid</Name>
+              <Controls>
+					<Control name="Tips_IRAvoid" text="红外避障/防掉落" />
+					<Control name="label1" text="提示：可以鼠标拖动查看整个示意图" />
+					<Control name="button1" text="发送红外避障/防掉落指令" />
+					<Control name="button2" text="切换到手动模式" />
+					<Control name="groupBox1" text="传感器接法示意图" />
+					<Control name="groupBox2" text="传感器接法示意图" />
+					<Control name="groupBox3" text="传感器接法示意图" />
+					<Control name="groupBox4" text="传感器接法示意图" />
+					<Control name="tabPage4" text="树莓派" />
+              </Controls>
+    </Form>
+	
+	<Form>
+          <Name>Tips_UltrasonicAvoid</Name>
+              <Controls>
+					<Control name="Tips_UltrasonicAvoid" text="超声波避障" />
+					<Control name="label1" text="提示：可以鼠标拖动查看整个示意图" />
+					<Control name="button1" text="发送超声波避障指令" />
+					<Control name="button2" text="切换到手动模式" />
+					<Control name="groupBox1" text="传感器接法示意图" />
+					<Control name="groupBox2" text="传感器接法示意图" />
+					<Control name="groupBox3" text="传感器接法示意图" />
+					<Control name="groupBox4" text="传感器接法示意图" />
+					<Control name="tabPage4" text="树莓派" />
+              </Controls>
+    </Form>
+	
+		<Form>
+          <Name>FirstRun</Name>
+              <Controls>
+					<Control name="FirstRun" text="使用向导-X*1080分辨率" />
+					<Control name="label1" text="欢迎使用WIFI/蓝牙智能小车机器人操控平台V2.4" />
+					<Control name="label4" text="更多教程请登录：" />
+					<Control name="label3" text="作者：liuviking" />
+					<Control name="checkBox1" text="不再弹出向导(可在主界面的“帮助”菜单中重新启用)" />
+					<Control name="linkLabel4" text="官方淘宝 wifi-robots.taobao.com" />
+					<Control name="label2" text="中国FPV-WIFI机器人网·机器人创意工作室版权所有" />
+              </Controls>
+    </Form>
+	
+		<Form>
+          <Name>VideoHelp</Name>
+              <Controls>
+					<Control name="VideoHelp" text="软件使用视频教程" />
+              </Controls>
+       </Form>
+	   
+	   <Form>
+          <Name>HelpForm</Name>
+              <Controls>
+					<Control name="HelpForm" text="帮助" />
+					<Control name="groupBox2" text="使用提示" />
+					<Control name="groupBox1" text="常用链接与问题解决方案" />
+					<Control name="label1" text="第一步：打开机器人小车电源或给WiFi模块供电。" />
+					<Control name="label2" text="第二步：点击电脑右下角无线网络开关，搜索到wifi-robots.com的信号连接上去。" />
+					<Control name="label3" text="第三步：选择软件的“控制模式”-“WIFI模式”。" />
+					<Control name="label5" text="第四步：开启视频，点击软件下方的“开启视频”开关。" />
+					<Control name="label4" text="第五步：控制，用键盘WSAD控制前后左右，鼠标控制云台运动。" />
+					
+			<Control name="linkLabel3" text="WIFI机器人网·机器人创意工作室论坛" />
+			<Control name="linkLabel4" text="官网商城：http://wifi-robots.taobao.com  " />
+			<Control name="linkLabel1" text="WIFI/蓝牙智能小车机器人操控平台使用说明" />
+			<Control name="linkLabel2" text="WIFI/蓝牙智能小车机器人操控平台API调用说明" />
+			<Control name="linkLabel5" text="传感器数据回传/超声波雷达数据回传显示设置" />
+			<Control name="button1" text="软件启动时显示教程向导" />
+			<Control name="linkLabel6" text="小R科技应用商城 www.robots-store.com" />
+              </Controls>
+       </Form>
+	   
+	   <Form>
+          <Name>RobotWarriors_Helper</Name>
+              <Controls>
+					<Control name="RobotWarriors_Helper" text="小R科技【RobotFighting机器人红外对战系统】使用说明" />
+					<Control name="tabPage1" text="演示视频" />
+					<Control name="tabPage2" text="简单对战模式使用说明" />
+					<Control name="tabPage3" text="网络裁判模式使用说明" />
+					<Control name="label1" text="【功能简介】
+小R科技 RobotFighting机器人红外对战系统是小R科技开发的一款AR(增强现实)机器人对战平台，在常规的小R科技机器人上加装红外发射和接收对战系统，并更新小R科技发布的对战固件后，就可以
+使用PC上位机的“对战”功能进行游戏，游戏操作方式和玩电脑游戏CF、CS类似，以第一人称射击的方式，玩家可以实时看到机器人视角拍摄到的视频画面，并且转动视频云台，遇敌后使用鼠标进行射
+击，还可以切换武器类型，造成不同的伤害效果，同时上位机带有对应的逼真音效，让玩家产生身临其境的感受。
+每轮游戏中每个上位机拥有35发狙击枪弹、4发火箭筒、2发导弹，10滴血；被狙击枪击中一次掉1滴血，火箭筒击中一次3滴血，导弹击中一次5滴血。击中时在机器人上有闪灯或声音提示，同时在机器人
+视频窗口有血量和弹药量提示，当血量为0时即为死亡，此时所控制的机器人小车停止运行，等待下一轮开局。
+【操作说明】
+首先参赛的机器人上安装小R科技红外对战系统升级套件，并升级对战固件。
+
+电脑安装V2.2以上版本PC上位机软件。打开机器人小车电源，20秒钟后小车启动完毕，电脑无线连接到小车信号(wifi-robots.com开头)，然后打开上位机软件，选择“控制模式”-“WIFI模式”，进入控制状态，点击“开启视频”，可以打开机器人实时摄像头视频。
+选择最上方的菜单栏-“对战模式”-“简单对战模式”-“开局”，即可进行对战游戏，因为是简单对战模式，所以双方可以随时在“对战模式”-“简单对战模式”-“开局”中重新初始化对战参数，以补充弹药和生命值。
+“开火”-鼠标左键
+“切换武器”-键盘1，2，3
+“转动云台”-按住鼠标右键，并在视频画面拖动
+" />
+					<Control name="label2" text="【功能简介】
+小R科技 RobotFighting机器人红外对战系统是小R科技开发的一款AR(增强现实)机器人对战平台，在常规的小R科技机器人上加装红外发射和接收对战系统，并更新小R科技发布的对战固件后，就可以
+使用PC上位机的“对战”功能进行游戏，游戏操作方式和玩电脑游戏CF、CS类似，以第一人称射击的方式，玩家可以实时看到机器人视角拍摄到的视频画面，并且转动视频云台，遇敌后使用鼠标进行射
+击，还可以切换武器类型，造成不同的伤害效果，同时上位机带有对应的逼真音效，让玩家产生身临其境的感受。
+每轮游戏中每个上位机拥有35发狙击枪弹、4发火箭筒、2发导弹，10滴血；被狙击枪击中一次掉1滴血，火箭筒击中一次3滴血，导弹击中一次5滴血。击中时在机器人上有闪灯或声音提示，同时在机器人
+视频窗口有血量和弹药量提示，当血量为0时即为死亡，此时所控制的机器人小车停止运行，等待下一轮开局。
+【操作说明】
+首先参赛的机器人上安装小R科技红外对战系统升级套件，并升级对战固件。
+选择一台电脑作为服务器，服务器上安装”小R科技 RobotFighting机器人对战系统服务器裁判程序“，运行服务器程序后，选择合适的端口，启动服务器。
+参赛者的电脑均通过有线网络连入同一台路由器，同时作为服务器的电脑也连入同一台路由器，构成一个局域网，每台电脑用手动指定IP，不要填写“网关”，以免影响上位机数据发送到机器人小车。
+电脑安装V2.2以上版本PC上位机软件。打开机器人小车电源，20秒钟后小车启动完毕，电脑无线连接到小车信号(wifi-robots.com开头)，然后打开上位机软件，选择“控制模式”-“WIFI模式”，进入控制状态，点击“开启视频”，可以打开机器人实时摄像头视频。
+选择最上方的菜单栏-“对战模式”-“网络裁判模式“，填入服务器电脑的IP和端口，点击“加入战场！”按钮，即可连接服务器。
+“开火”-鼠标左键
+“切换武器”-键盘1，2，3
+“转动云台”-按住鼠标右键，并在视频画面拖动
+由于有服务器作为裁判，所以无法自己来进行加血或补充弹药操作，确保了竞赛的公平公正，当一局结束，需要重新开局时，在服务器上选择“重新开局”，所有机器人小车均原地满血满状态复活！" />
+              </Controls>
+       </Form>
+	   
+	   	 <Form>
+          <Name>Acknowledgement</Name>
+              <Controls>
+					<Control name="Acknowledgement" text="英雄榜" />
+					<Control name="label1" text="感谢车友们对论坛的支持，你们是我们最坚强的后盾！" />  
+			 </Controls>
+       </Form>
+	   
+	   <Form>
+          <Name>AboutForm</Name>
+              <Controls>
+					<Control name="AboutForm" text="关于本软件" />
+					<Control name="okButton" text="确定" />  
+			 </Controls>
+       </Form>
+	   
+	    <Form>
+          <Name>FrameRateForm</Name>
+              <Controls>
+					<Control name="FrameRateForm" text="录像帧率设置" />
+					<Control name="label1" text="帧率:" />  
+					<Control name="label2" text="FPS(不建议修改)" />
+					<Control name="label3" text="分辨率:" />
+					<Control name="label4" text="如果录制不成功，请重试换一个分辨率。" />
+					<Control name="btnOK" text="确定" />
+					<Control name="btnCancel" text="取消" />
+			 </Controls>
+       </Form>
+	   
+	   	<Form>
+          <Name>CustomSetting</Name>
+              <Controls>
+					<Control name="CustomSetting" text="自定义命令设置" />
+					<Control name="label2" text="注意：自定义的命令名称超过4个字符将被·号取代。" />  
+					<Control name="label1" text="自定义命令名称" />
+					<Control name="btnOK" text="确定" />
+			 </Controls>
+       </Form>
+	   
+	   <Form>
+          <Name>PathplanningWindow</Name>
+              <Controls>
+					<Control name="PathplanningWindow" text="小R科技智能小车路径规划系统 by Sence" />
+					<Control name="btn_StartPathPainning" text="开始执行" />  
+					<Control name="btn_Reset" text="重置画面" />
+					<Control name="groupBox1" text="节点信息" />
+					<Control name="label2" text="节点个数:" />
+					<Control name="label4" text="当前节点:" />
+					<Control name="label3" text="当前角度:" />
+					<Control name="label5" text="当前距离:" />
+					<Control name="label1" text="采样间隔:" />
+					<Control name="chkRepeat" text="循环执行" />
+					
+			 </Controls>
+       </Form>
+	   
+</Resource>
